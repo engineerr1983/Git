@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "meetings_his_tbl",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "creatorEmail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "stopRecordingTime",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
